@@ -1,0 +1,28 @@
+.nav-item a{
+    color: #062829;
+    
+}
+.nav-item a:hover{
+    color: darkgray;
+}
+.login{
+    color: white;
+    background-color: #062829;
+    border: black;
+}
+.login:hover{
+    background-color: darkgray;
+}
+.colornav{
+    background-color: #e2c2a3 !important;
+}
+.YoProgramo{
+    color: #062829;
+    font-weight: 600;
+}
+
+.navbar-collapse {
+
+    flex-grow: 0 !important;
+
+}
