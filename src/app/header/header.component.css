@@ -26,3 +26,20 @@
     flex-grow: 0 !important;
 
 }
+body{
+    margin: 0;
+}
+.bg{
+text-align: center;
+padding: 10px;
+height: 60vh;
+background-size: cover;
+box-sizing: border-box;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.home{
+    background-image: url("src/assets/images/fondo.jpg");
+    
+}
