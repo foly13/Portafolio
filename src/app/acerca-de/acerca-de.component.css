@@ -1,12 +1,12 @@
 .fotoPerfil{
     width: 300px;
     height: 300px;
-    padding:90px;
-    border-radius:150px;
-    margin-top: -140px;
+    padding:80px;
+    border-radius:190px;
+    margin-top: -165px;
 }
 .formatotitulo{
-    padding: 10px 40px 40px 80px;
+    padding: 5px 40px 40px 80px;
 }
 .bordeinferior{
     border: 2px solid #e2c2a3;
@@ -18,4 +18,10 @@
 }
 .bg{
 background-color: #eeeeee;
+padding: 10px;
+}
+.alineartexto{
+    
+    padding-right: 10%;
+    padding-bottom: 2%;
 }

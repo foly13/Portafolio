@@ -1,0 +1,15 @@
+.bg{
+    height: 80px;
+    width: 100%;
+    background-color: #e2c2a3;
+    margin: 0;
+    margin-top:-10px;
+}
+.centrado{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+}
