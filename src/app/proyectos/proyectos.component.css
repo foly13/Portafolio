@@ -13,17 +13,18 @@
     font-size: 25px;
     font-weight: 200;
 }
-.logos{
-    height: 70px;
-    width: 70px;
-    margin-top: 20px;
-    
-}
-
-.alineartexto{
-    padding-top: 20px;
-}
-.anchocard{
-    border: 2px solid #e2c2a3;
+.bgproyecto{
     background-color: #eeeeee;
+}
+.border{
+    border: 2px solid #e2c2a3 !important;
+}
+.borderfooter{
+border-top: 0.5px solid #e2c2a3 !important;
+}
+.boton:hover{
+    background-color: darkgrey !important;
+}
+.negrita{
+    font-weight: 200px;
 }
