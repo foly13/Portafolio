@@ -9,6 +9,8 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { EducacionComponent } from './educacion/educacion.component';
 import { HabilidadesDurasYBlandasComponent } from './habilidades-duras-yblandas/habilidades-duras-yblandas.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
+import { PortafolioService } from './servicios/portafolio.service';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,9 +24,10 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [PortafolioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
