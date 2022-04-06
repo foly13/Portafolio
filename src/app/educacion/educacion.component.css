@@ -16,13 +16,14 @@
 .logos{
     height: 70px;
     width: 70px;
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10%;
     
 }
 
 .alineartexto{
-    padding: auto;
+    padding:auto;
 }
 .anchocard{
     border: 2px solid #e2c2a3;
