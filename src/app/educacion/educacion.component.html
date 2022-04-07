@@ -6,20 +6,20 @@
     </div>
     <div class="row">
         <div class="col-12">
-            <div class="card w-100 anchocard">
+            <div *ngFor="let educacion of educacionList" class="card w-100 anchocard">
                 <div class="row">
                   <div class="col-4 text-center">
-                    <img src="assets/images/logo1.png" class="img-fluid logos" alt="...">
+                    <img [src]="educacion.imagen" class="img-fluid logos" alt="...">
                   </div>
                   <div class="col-8">
                     <div class="card-body alineartexto">
-                      <h5 class="card-title">Desarrollo Full Stack</h5>
-                      <p class="card-text"> #YoProgramo. Curso realizado en el marco del plan Argentina Programa, con una duración de siete meses. Certificado de manera conjunta por el Ministerio de Desarrollo Productivo, la Cámara de la Industria Argentina del Software (CESSI) y el Instituto Nacional de Tecnología Industrial (INTI).</p>
+                      <h5 class="card-title">{{educacion.titulo}}</h5>
+                      <p class="card-text">{{educacion.descripcion}}</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-12">
+              <!--<div class="col-12">
                 <div class="card w-100 anchocard">
                     <div class="row">
                       <div class="col-4 text-center">
@@ -122,9 +122,9 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div>-->
               </div>
         </div>
     </div>
-</div>
+
 

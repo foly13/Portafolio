@@ -4,22 +4,22 @@
 <h2 class="centrado">Proyectos</h2>
 </div>
 </div>
-<div class="row">
-  <div class="col-md-4">
+<div  class="row">
+  <div *ngFor="let proyectos of proyectosList" class="col-md-4">
 <div class="card border">
     <div class="card-body text-left bgproyecto">
-      <img src="assets/images/fondo.jpg" class="img-fluid" alt="">
-      <h5 class="card-title negrita">Nombre de Proyecto</h5>
-      <p class="card-text alto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum similique maiores, eaque neque odit animi.</p>
+      <img [src]="proyectos.img" class="img-fluid" alt="">
+      <h5 class="card-title negrita">{{proyectos.nombre}}</h5>
+      <p class="card-text alto">{{proyectos.descripcion}}</p>
     </div>
     <div class="card-body text-center bgproyecto">
         <a href="#" class="btn btn-dark boton">Ver Proyecto</a>
     </div>
     <div class="card-footer text-center text-muted borderfooter">
-      00/00/2000
+      {{proyectos.fecha}}
     </div>
   </div>
-</div>
+<!--</div>
 <div class="col-md-4">
   <div class="card border">
     <div class="card-body text-left bgproyecto">
@@ -48,6 +48,6 @@
     <div class="card-footer text-center text-muted borderfooter">
       00/00/2000
     </div>
-  </div>
+  </div>-->
 </div>
 </div>

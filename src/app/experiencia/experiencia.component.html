@@ -6,20 +6,20 @@
     </div>
     <div class="row">
         <div class="col-12">
-            <div class="card w-100 anchocard">
+            <div *ngFor="let experiencia of experienciaList" class="card w-100 anchocard">
                 <div class="row">
                   <div class="col-4 text-center">
-                    <img src="assets/images/animada.jpg" class="img-fluid logos" alt="...">
+                    <img [src]="experiencia.imagen" class="img-fluid logos" alt="...">
                   </div>
                   <div class="col-8">
                     <div class="card-body alineartexto">
-                      <h5 class="card-title">Lorem ipsum dolor sit.</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aperiam eos numquam vero, illo eum, qui corporis illum nostrum corrupti eligendi ut temporibus, tempore totam aspernatur quidem officiis? Porro, eum!</p>
+                      <h5 class="card-title">{{experiencia.titulo}}</h5>
+                      <p class="card-text">{{experiencia.descripcion}}</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-12">
+            <!--  <div class="col-12">
                 <div class="card w-100 anchocard">
                     <div class="row">
                       <div class="col-4 text-center">
@@ -32,8 +32,8 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div>-->
               </div>
         </div>
     </div>
-</div>
+

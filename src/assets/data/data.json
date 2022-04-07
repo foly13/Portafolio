@@ -6,126 +6,126 @@
     "banner":"",
 "experiencia":[
     {
-"titulo1":"titulo 1ra experiencia",
-"descripcion1":"Mi primera experiencia como telefonista del 911",
-"imagen1":""
+"titulo":"titulo 1ra experiencia",
+"descripcion":"Mi primera experiencia como telefonista del 911",
+"imagen":"assets/images/animada.jpg"
 },
 {
-    "titulo2":"titulo 2ra experiencia",
-    "descripcion2":"Mi segunda experiencia experiencia como telefonista de easy call",
-    "imagen2":""
+    "titulo":"titulo 2ra experiencia",
+    "descripcion":"Mi segunda experiencia experiencia como telefonista de easy call",
+    "imagen":"assets/images/call.jpg"
     }
 ],
-    "estudios":[
+    "educacion":[
         {
-            "titulo1":"Desarrollo Full Stack",
-            "descripcion1":"#YoProgramo. Curso realizado en el marco del plan Argentina Programa, con una duración de siete meses. Certificado de manera conjunta por el Ministerio de Desarrollo Productivo, la Cámara de la Industria Argentina del Software (CESSI) y el Instituto Nacional de Tecnología Industrial (INTI).",
-            "imagen1":""
+            "titulo":"Desarrollo Full Stack",
+            "descripcion":"#YoProgramo. Curso realizado en el marco del plan Argentina Programa, con una duración de siete meses. Certificado de manera conjunta por el Ministerio de Desarrollo Productivo, la Cámara de la Industria Argentina del Software (CESSI) y el Instituto Nacional de Tecnología Industrial (INTI).",
+            "imagen":"assets/images/logo1.png"
     },
     {
-        "titulo2":"#SeProgramar",
-        "descripcion2":"Curso introductorio sobre los fundamentos básicos de la programación, con una carga horaria aproximada de 60 hs. Certificado de manera conjunta por el Ministerio de Desarrollo Productivo, la Cámara de la Industria Argentina del Software (CESSI) y el Instituto Nacional de Tecnología Industrial (INTI).",
-        "imagen2":""
+        "titulo":"#SeProgramar",
+        "descripcion":"Curso introductorio sobre los fundamentos básicos de la programación, con una carga horaria aproximada de 60 hs. Certificado de manera conjunta por el Ministerio de Desarrollo Productivo, la Cámara de la Industria Argentina del Software (CESSI) y el Instituto Nacional de Tecnología Industrial (INTI).",
+        "imagen":"assets/images/logo1.png"
 },
 {
-    "titulo3":"Big Data introductorio",
-    "descripcion3":" Dictado por el centro G+T(ARSAT)",
-    "imagen3":""
+    "titulo":"Big Data introductorio",
+    "descripcion":" Dictado por el centro G+T(ARSAT)",
+    "imagen":"assets/images/logohuawei1.jpg"
 },
 {
-    "titulo4":"Comercio Electrónico",
-    "descripcion4":"Certificación en Comercio Electrónico. Con una carga horaria de 40 hs. Dictado por Google Activate.",
-    "imagen4":""
+    "titulo":"Comercio Electrónico",
+    "descripcion":"Certificación en Comercio Electrónico. Con una carga horaria de 40 hs. Dictado por Google Activate.",
+    "imagen":"assets/images/logoGoogle.jpg"
 },
 {
-    "titulo5":"Digitaliza paso a paso tu negocio con Google My Business y You Tube",
-    "descripcion5":"Curso orientado a la generación de presencia online con Google My Business y You Tube. Dictado por Google Activate.",
-    "imagen5":""
+    "titulo":"Digitaliza paso a paso tu negocio con Google My Business y You Tube",
+    "descripcion":"Curso orientado a la generación de presencia online con Google My Business y You Tube. Dictado por Google Activate.",
+    "imagen":"assets/images/logoGoogle.jpg"
 },
 {
-    "titulo6":"Introducción al Desarrollo Web I",
-    "descripcion6":"Curso introductorio. Con una carga horaria de 40 hs. Dictado por Google Activate.",
-    "imagen6":""
+    "titulo":"Introducción al Desarrollo Web I",
+    "descripcion":"Curso introductorio. Con una carga horaria de 40 hs. Dictado por Google Activate.",
+    "imagen":"assets/images/logoGoogle.jpg"
 },
 {
-    "titulo7":"Conceptos Básicos del Marketing Digital",
-    "descripcion7":"Curso introductorio. Con una carga horaria de 40 hs. Dictado por Google Garage Digital",
-    "imagen7":""
+    "titulo":"Conceptos Básicos del Marketing Digital",
+    "descripcion":"Curso introductorio. Con una carga horaria de 40 hs. Dictado por Google Garage Digital",
+    "imagen":"assets/images/logoGoogle.jpg"
 },
 {
-    "titulo8": "Martillero Público y Corredor Inmobiliario",
-    "descripcion8":"",
-    "imagen8":"Titulo habilitante para actuar en remates públicos, privados, judiciales y de hacienda. Asi como tambien en los negocios sobre bienes muebles e inmuebles intermediando y asesorando entre la oferta y la demanda."
+    "titulo": "Martillero Público y Corredor Inmobiliario",
+    "descripcion":"Titulo habilitante para actuar en remates públicos, privados, judiciales y de hacienda. Asi como tambien en los negocios sobre bienes muebles e inmuebles intermediando y asesorando entre la oferta y la demanda.",
+    "imagen":"assets/images/siglo21.jpg"
 }
 ],
-"habilidades duras":[
+"habilidadesDuras":[
     {
-        "titulo1":"Html",
-        "aria-valuenow1":"25",
-        "style1": "width: 25%"
+        "titulo":"Html",
+        "aria-valuenow":"25",
+        "style": "width: 25%"
     },
     {
-        "titulo2":"Css",
-        "aria-valuenow2":"10",
-        "style2": "width: 10%"
+        "titulo":"Css",
+        "aria-valuenow":"10",
+        "style": "width: 10%"
     },
     {
-        "titulo3":"Js",
-        "aria-valuenow3":"10",
-        "style3": "width: 10%"
+        "titulo":"Js",
+        "aria-valuenow":"10",
+        "style": "width: 10%"
     },
     {
-        "titulo4":"Java",
-        "aria-valuenow4":"45",
-        "style4": "width: 45%"
+        "titulo":"Java",
+        "aria-valuenow":"45",
+        "style": "width: 45%"
     },
     {
-        "titulo5":"Angular",
-        "aria-valuenow5":"85",
-        "style5": "width: 85%"
+        "titulo":"Angular",
+        "aria-valuenow":"85",
+        "style": "width: 85%"
     }
 
 ],
-"habilidades blandas":[
+"habilidadesBlandas":[
     {
-        "titulo1":"Hablidad 1",
-        "aria-valuenow1":"40",
-        "style1": "width: 40%"
+        "titulo":"Hablidad 1",
+        "aria-valuenow":"40",
+        "style": "width: 40%"
 },
 {
-    "titulo2":"Hablidad 2",
-    "aria-valuenow2":"90",
-    "style2": "width: 90%"
+    "titulo":"Hablidad 2",
+    "aria-valuenow":"90",
+    "style": "width: 90%"
 },
 {
-    "titulo3":"Hablidad 3",
-    "aria-valuenow3":"50",
-    "style3": "width: 50%"
+    "titulo":"Hablidad 3",
+    "aria-valuenow":"50",
+    "style": "width: 50%"
 }
 ],
 "proyectos":[
     {
-        "nombre1":"proyecto 1",
-        "descripcion1":"descripcion 1",
-        "img1":"",
-        "fecha1":"00/00/2022",
-        "enlace1":""
+        "nombre":"proyecto 1",
+        "descripcion":"descripcion 1",
+        "img":"assets/images/fondo.jpg",
+        "fecha":"00/00/2022",
+        "enlace":""
 
     },
     {
-        "nombre2":"proyecto 2",
-        "descripcion2":"descripcion 2",
-        "img2":"",
-        "fecha2":"00/00/2021",
-        "enlace2":""
+        "nombre":"proyecto 2",
+        "descripcion":"descripcion 2",
+        "img":"assets/images/fondo.jpg",
+        "fecha":"00/00/2021",
+        "enlace":""
 
     },
     {
-        "nombre3":"proyecto 3",
-        "descripcion3":"descripcion 3",
-        "img3":"",
-        "fecha3":"00/00/2021",
-        "enlace3":""
+        "nombre":"proyecto 3",
+        "descripcion":"descripcion 3",
+        "img":"assets/images/fondo.jpg",
+        "fecha":"00/00/2021",
+        "enlace":""
 
     }
 ]

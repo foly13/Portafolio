@@ -11,15 +11,16 @@
         <hr>
       </div>
 </div>
-<div class="row fondohabilidades">
-  <div class="col-4 text-center"><p class="habilidad">Html</p></div>
+<div *ngFor="let habilidadesDuras of durasList" class="row fondohabilidades">
+  <div class="col-4 text-center"><p class="habilidad">{{habilidadesDuras.titulo}}</p></div>
+  <h1>{{habilidadesDuras.style}}</h1>
   <div class="col-8">
 <div class="progress">
-  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">25%</div>
+  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="{value}" aria-valuemin="0" aria-valuemax="100" style="{{habilidadesDuras.style}}">25%</div>
 </div>
 </div>
 </div>
-<div class="row fondohabilidades">
+<!--<div class="row fondohabilidades">
   <div class="col-3 text-center"><p class="habilidad">Css</p></div>
   <div class="col-9">
 <div class="progress">
@@ -50,7 +51,7 @@
   <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
 </div>
 </div>
-</div>
+</div>-->
 <div class="row fondohabilidades">
   <div class="col titulohabilidades">
     <h5 card-tittle>Habilidades blandas</h5>
