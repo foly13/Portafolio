@@ -149,8 +149,8 @@
     },
     {
         "nombre":"Proyecto 3",
-        "descripcion":"En proceso",
-        "img":"assets/images/fondo.jpg",
+        "descripcion":"En proceso.",
+        "img":"assets/images/enConst.jpg",
         "fecha":"00/00/2021",
         "enlace":""
 
