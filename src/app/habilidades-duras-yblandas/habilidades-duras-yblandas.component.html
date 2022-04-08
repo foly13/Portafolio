@@ -12,11 +12,10 @@
       </div>
 </div>
 <div *ngFor="let habilidadesDuras of durasList" class="row fondohabilidades">
-  <div class="col-4 text-center"><p class="habilidad">{{habilidadesDuras.titulo}}</p></div>
-  <h1>{{habilidadesDuras.style}}</h1>
+  <div [class]="habilidadesDuras.alinearTexto"><p class="habilidad">{{habilidadesDuras.titulo}}</p></div>
   <div class="col-8">
 <div class="progress">
-  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="{value}" aria-valuemin="0" aria-valuemax="100" style="{{habilidadesDuras.style}}">25%</div>
+  <div [class]="habilidadesDuras.clases" role="progressbar" aria-valuemin="0" aria-valuemax="100" [style]="habilidadesDuras.style">{{habilidadesDuras.porcentaje}}</div>
 </div>
 </div>
 </div>
@@ -59,15 +58,15 @@
   </div>
 </div>
 
-<div class="row fondohabilidades">
-  <div class="col-4 text-center"><p class="habilidad">Habilidad1</p></div>
+<div *ngFor="let habilidadesBlandas of blandasList" class="row fondohabilidades">
+  <div [class]="habilidadesBlandas.alinearTexto"><p class="habilidad">{{habilidadesBlandas.titulo}}</p></div>
   <div class="col-8">
 <div class="progress">
-  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
+  <div [class]="habilidadesBlandas.clases" role="progressbar" aria-valuemin="0" aria-valuemax="100" [style]="habilidadesBlandas.style">{{habilidadesBlandas.porcentaje}}</div>
 </div>
 </div>
 </div>
-<div class="row fondohabilidades">
+<!--<div class="row fondohabilidades">
   <div class="col-3 text-center"><p class="habilidad">habilidad2</p></div>
   <div class="col-9">
 <div class="progress">
@@ -83,4 +82,4 @@
 </div>
 </div>
 </div>
-</div>
+</div>-->

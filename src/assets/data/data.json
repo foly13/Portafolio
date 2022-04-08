@@ -3,16 +3,27 @@
     "titulo": "Desarrolladora Web Full Stack Jr",
     "sobreMi": "Estoy dando mis primeros pasos en el desarrollo web, es de mi interés continuar formándome y adquirir experiencia en el mundo de la programación web. Mi búsqueda laboral se direcciona en este sentido.",
     "imagenPerfil":"./assets/images/imgperfil.jpg",
-    "banner":"",
+    "banner":"./assets/images/fondo.jpg",
+    "logoYoP":"./assets/images/logo1.png",
+    "textoYoP":"#YoProgramo",
+    "enlaceG":"https://github.com/foly13",
+    "logoG":"bi bi-github",
+    "enlaceL":"https://www.linkedin.com/in/florencia-paola-casanova-3710221b5/?originalSubdomain=ar",
+    "logoL":"bi bi-linkedin",
+    "enlaceI":"https://www.instagram.com/flor.casan/",
+    "logoI":"bi bi-instagram",
+    "enlaceW":"https://api.whatsapp.com/send?phone=5493415463439&text=Hola!%20",
+    "logoW":"bi bi-whatsapp",
+    
 "experiencia":[
     {
-"titulo":"titulo 1ra experiencia",
-"descripcion":"Mi primera experiencia como telefonista del 911",
+"titulo":"Central de Emergencias 911",
+"descripcion":"Tareas desarrolladas: Telefonista, Control de sistema de personas bajo vigilancia Electrónica, manejo de sistema Cóndor. 2016 – Actualidad. ",
 "imagen":"assets/images/animada.jpg"
 },
 {
-    "titulo":"titulo 2ra experiencia",
-    "descripcion":"Mi segunda experiencia experiencia como telefonista de easy call",
+    "titulo":"Easy Call - Telemarketing",
+    "descripcion":"Venta telefónica de productos intangibles. 2013 - 2016. ",
     "imagen":"assets/images/call.jpg"
     }
 ],
@@ -61,68 +72,84 @@
 "habilidadesDuras":[
     {
         "titulo":"Html",
-        "aria-valuenow":"25",
-        "style": "width: 25%"
+        "porcentaje":"75%",
+        "style": "width: 75%",
+        "clases":"progress-bar progress-bar-striped progress-bar-animated",
+        "alinearTexto":"col-4 text-center"
     },
     {
         "titulo":"Css",
-        "aria-valuenow":"10",
-        "style": "width: 10%"
+        "porcentaje":"70%",
+        "style": "width:70%",
+        "clases":"progress-bar progress-bar-striped bg-success progress-bar-animated",
+        "alinearTexto":"col-3 text-center"
     },
     {
         "titulo":"Js",
-        "aria-valuenow":"10",
-        "style": "width: 10%"
+        "porcentaje":"60%",
+        "style": "width:60%",
+        "clases":"progress-bar progress-bar-striped bg-info progress-bar-animated",
+        "alinearTexto":"col-4 text-center"
     },
     {
         "titulo":"Java",
-        "aria-valuenow":"45",
-        "style": "width: 45%"
+        "porcentaje":"60%",
+        "style": "width:60%",
+        "clases":"progress-bar progress-bar-striped bg-warning progress-bar-animated",
+        "alinearTexto":"col-3 text-center"
     },
     {
         "titulo":"Angular",
-        "aria-valuenow":"85",
-        "style": "width: 85%"
+        "porcentaje":"75%",
+        "style": "width:75%",
+        "clases":"progress-bar progress-bar-striped bg-danger progress-bar-animated",
+        "alinearTexto":"col-4 text-center"
     }
 
 ],
 "habilidadesBlandas":[
     {
-        "titulo":"Hablidad 1",
-        "aria-valuenow":"40",
-        "style": "width: 40%"
+        "titulo":"Trabajo en equipo",
+        "porcentaje":"80%",
+        "style": "width: 80%",
+        "clases":"progress-bar progress-bar-striped progress-bar-animated",
+        "alinearTexto":"col-4 text-center"
 },
 {
-    "titulo":"Hablidad 2",
-    "aria-valuenow":"90",
-    "style": "width: 90%"
+    "titulo":"Orientación a resultados",
+    "porcentaje":"90%",
+    "style": "width: 90%",
+    "clases":"progress-bar progress-bar-striped bg-success progress-bar-animated",
+    "alinearTexto":"col-3 text-center"
 },
 {
-    "titulo":"Hablidad 3",
-    "aria-valuenow":"50",
-    "style": "width: 50%"
+    "titulo":"Comunicación y escucha activa",
+    "porcentaje":"85%",
+    "style": "width: 85%",
+    "clases":"progress-bar progress-bar-striped bg-info progress-bar-animated",
+    "alinearTexto":"col-4 text-center"
 }
 ],
 "proyectos":[
     {
-        "nombre":"proyecto 1",
-        "descripcion":"descripcion 1",
-        "img":"assets/images/fondo.jpg",
-        "fecha":"00/00/2022",
-        "enlace":""
+        "nombre":"Portafolio",
+        "descripcion":"Aplicación de arquitectura distribuida. Construida con Angular, MySQL y Spring Boot. ",
+        "img":"assets/images/portafolioImagen.jpg",
+        "fecha":"20/05/2022",
+        "enlace":"https://github.com/foly13/Portafolio"
 
     },
     {
-        "nombre":"proyecto 2",
-        "descripcion":"descripcion 2",
-        "img":"assets/images/fondo.jpg",
-        "fecha":"00/00/2021",
-        "enlace":""
+        "nombre":"Task List",
+        "descripcion":"Aplicación en Angular, con Json Server.",
+        "img":"assets/images/Task.jpg",
+        "fecha":"10/03/2022",
+        "enlace":"https://github.com/foly13/task-list"
 
     },
     {
-        "nombre":"proyecto 3",
-        "descripcion":"descripcion 3",
+        "nombre":"Proyecto 3",
+        "descripcion":"En proceso",
         "img":"assets/images/fondo.jpg",
         "fecha":"00/00/2021",
         "enlace":""

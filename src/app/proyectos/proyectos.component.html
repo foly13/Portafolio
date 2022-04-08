@@ -7,13 +7,13 @@
 <div  class="row">
   <div *ngFor="let proyectos of proyectosList" class="col-md-4">
 <div class="card border">
-    <div class="card-body text-left bgproyecto">
-      <img [src]="proyectos.img" class="img-fluid" alt="">
-      <h5 class="card-title negrita">{{proyectos.nombre}}</h5>
-      <p class="card-text alto">{{proyectos.descripcion}}</p>
+    <div class="card-body text-left bgproyecto ">
+      <div><img [src]="proyectos.img" class="rounded mx-auto d-block imgB" alt=""></div>
+      <div class="espacio"><h5 class="card-title negrita">{{proyectos.nombre}}</h5>
+      <p class="card-text alto">{{proyectos.descripcion}}</p></div>
     </div>
     <div class="card-body text-center bgproyecto">
-        <a href="#" class="btn btn-dark boton">Ver Proyecto</a>
+        <a [href]="proyectos.enlace" target="none" class="btn btn-dark boton">Ver Proyecto</a>
     </div>
     <div class="card-footer text-center text-muted borderfooter">
       {{proyectos.fecha}}

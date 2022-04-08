@@ -16,6 +16,11 @@
 .bgproyecto{
     background-color: #eeeeee;
 }
+.imgB{
+    width: 400px;
+    height: 250px;
+    padding: auto;
+}
 .border{
     border: 2px solid #e2c2a3 !important;
 }
@@ -29,5 +34,8 @@ border-top: 0.5px solid #e2c2a3 !important;
     font-weight: 200px;
 }
 .alto{
-    height: 80px;
+    height: 40px;
+}
+.espacio{
+    padding-top: 15px;
 }

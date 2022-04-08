@@ -7,15 +7,17 @@ import { PortafolioService } from '../servicios/portafolio.service';
 })
 export class HabilidadesDurasYBlandasComponent implements OnInit {
 durasList:any;
+blandasList:any;
   constructor(private datosPortafolio: PortafolioService) { }
 
   ngOnInit(): void {
     this.datosPortafolio.obtenerDatos().subscribe(data =>{
       this.durasList=data.habilidadesDuras;
-      console.log(this.durasList)
+      
   })
  
+  this.datosPortafolio.obtenerDatos().subscribe(data =>{
+    this.blandasList=data.habilidadesBlandas;
 
-
-  }
-}
+  })
+}}
