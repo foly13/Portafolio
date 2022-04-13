@@ -1,0 +1,21 @@
+.card{
+    border: 2px;
+    width: 70%;
+    padding: 40px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e2c2a3
+
+}
+h6{
+    color: gray;
+}
+label{
+    color: grey;
+}
+
+.boton:hover{
+    background-color: #808080;
+}

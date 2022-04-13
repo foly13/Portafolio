@@ -32,7 +32,8 @@
           </li>
         </ul>
         <form class="d-flex">
-          <button class="btn btn-outline-success login " type="submit">Login</button>
+          <button routerLink="/login"class="btn btn-outline-success login " type="submit" *ngIf="hasRouteUsuario('/portafolio')">Login</button>
+          <button routerLink="/portafolio" class="btn btn-danger mx-2 login" *ngIf="hasRouteAdmin('/usuario')">Logout</button>
         </form>
       </div>
     </div>
