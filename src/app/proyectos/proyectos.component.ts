@@ -1,19 +1,20 @@
 import { Component, OnInit } from '@angular/core';
-import { PortafolioService } from '../servicios/portafolio.service';
+import { ApiService } from '../servicios/api.service';
+import { Router } from '@angular/router';
+import { proyectosI } from '../modelos/proyectos.interface';
 @Component({
   selector: 'app-proyectos',
   templateUrl: './proyectos.component.html',
   styleUrls: ['./proyectos.component.css']
 })
 export class ProyectosComponent implements OnInit {
-proyectosList:any;
-  constructor(private datosPortafolio: PortafolioService) { }
+proyectosList:proyectosI[]=[];
+  constructor(private api: ApiService, private route: Router) { }
 
   ngOnInit(): void {
-    this.datosPortafolio.obtenerDatos().subscribe(data =>{
-      this.proyectosList=data.proyectos;
-      console.log(this.proyectosList)
-  })
+    this.api.getProyectos().subscribe(data =>{
+      this.proyectosList = data;
+    })
   };
 
 }

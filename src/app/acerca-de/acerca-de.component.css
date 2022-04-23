@@ -25,3 +25,19 @@ padding: 10px;
     padding-right: 10%;
     padding-bottom: 2%;
 }
+.botonEditar{
+    display: block;
+    float: right;
+    padding:auto;
+    margin: 1%;
+    }
+
+.botonEditar:hover{
+    color: #e2c2a3;
+    }
+.fondom{
+    background: #e2c2a3;
+}
+.boton:hover{
+    background-color: #e2c2a3 !important;
+}

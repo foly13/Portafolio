@@ -39,3 +39,21 @@ background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
+.botonEditar{
+display: block;
+float: right;
+padding:auto;
+margin: 1%;
+margin-top: 270px;
+margin-right: 50px;
+   }
+
+.botonEditar:hover{
+color: #e2c2a3;
+    }
+.fondom{
+    background: #e2c2a3;
+    }
+.boton:hover{
+        background-color: #e2c2a3 !important;
+    }

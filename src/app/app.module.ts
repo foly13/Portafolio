@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -15,6 +14,8 @@ import { LoginComponent } from './login/login.component';
 import { PortafolioComponent } from './portafolio/portafolio.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UsuarioComponent } from './usuario/usuario.component';
+import { FooterComponent } from './footer/footer.component';
+import { EditarComponent } from './editar/editar.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,9 @@ import { UsuarioComponent } from './usuario/usuario.component';
     ProyectosComponent,
     LoginComponent,
     PortafolioComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    FooterComponent,
+    EditarComponent
   ],
   imports: [
     BrowserModule,
