@@ -51,5 +51,9 @@ export class AcercaDeComponent implements OnInit {
       })
      
   }
+  
+  hasRouteAdmin (Router: string) {
+    return this.router.url === Router;
+ }
 
 }

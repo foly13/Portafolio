@@ -58,5 +58,8 @@ export class ExperienciaComponent implements OnInit {
       })
      
   }
+  hasRouteAdmin (Router: string) {
+    return this.router.url === Router;
+ }
 
 }

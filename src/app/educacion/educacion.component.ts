@@ -57,4 +57,8 @@ educacionData !:any;
      
   }
 
+  hasRouteAdmin (Router: string) {
+    return this.router.url === Router;
+ }
+
 }
