@@ -15,7 +15,6 @@ import { PortafolioComponent } from './portafolio/portafolio.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { FooterComponent } from './footer/footer.component';
-import { EditarComponent } from './editar/editar.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,7 @@ import { EditarComponent } from './editar/editar.component';
     PortafolioComponent,
     UsuarioComponent,
     FooterComponent,
-    EditarComponent
+    
   ],
   imports: [
     BrowserModule,

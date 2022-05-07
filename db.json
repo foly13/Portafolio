@@ -17,16 +17,16 @@
   "header": [
     {
       "banner": "./assets/images/fondo.jpg",
-      "logoYoP": "",
-      "textoYoP": "",
-      "enlaceG": "",
-      "logoG": "",
-      "enlaceL": "",
-      "logoL": "",
-      "enlaceI": "",
-      "logoI": "",
-      "enlaceW": "",
-      "logoW": "",
+      "logoYoP":"./assets/images/logo1.png",
+    "textoYoP":"#YoProgramo",
+    "enlaceG":"https://github.com/foly13",
+    "logoG":"bi bi-github",
+    "enlaceL":"https://www.linkedin.com/in/florencia-paola-casanova-3710221b5/?originalSubdomain=ar",
+    "logoL":"bi bi-linkedin",
+    "enlaceI":"https://www.instagram.com/flor.casan/",
+    "logoI":"bi bi-instagram",
+    "enlaceW":"https://api.whatsapp.com/send?phone=5493415463439&text=Hola!%20",
+    "logoW":"bi bi-whatsapp",
       "id": 1
     }
   ],
@@ -49,19 +49,19 @@
       "titulo": "Desarrollo Full Stack",
       "descripcion": "#YoProgramo. Curso realizado en el marco del plan Argentina Programa, con una duración de siete meses. Certificado de manera conjunta por el Ministerio de Desarrollo Productivo, la Cámara de la Industria Argentina del Software (CESSI) y el Instituto Nacional de Tecnología Industrial (INTI).",
       "imagen": "assets/images/logo1.png",
-      "id": 1
+      "id": ""
     },
     {
       "titulo": "#SeProgramar",
       "descripcion": "Curso introductorio sobre los fundamentos básicos de la programación, con una carga horaria aproximada de 60 hs. Certificado de manera conjunta por el Ministerio de Desarrollo Productivo, la Cámara de la Industria Argentina del Software (CESSI) y el Instituto Nacional de Tecnología Industrial (INTI).",
       "imagen": "assets/images/logo1.png",
-      "id": 2
+      "id": ""
     },
     {
       "titulo": "Big Data introductorio",
       "descripcion": " Dictado por el centro G+T(ARSAT)",
       "imagen": "assets/images/logohuawei1.jpg",
-      "id": 3
+      "id": ""
     },
     {
       "titulo": "Comercio Electrónico",
