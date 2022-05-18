@@ -11,7 +11,9 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class ExperienciaComponent implements OnInit {
   formValue !: FormGroup;
+  otroFormValue ! : FormGroup;
   experienciaList:experienciaI= new experienciaI();
+  experienciaLista:experienciaI= new experienciaI();
   experienciaData !: any;
   constructor(private formbuilder: FormBuilder, private api: ApiService, private router: Router) { }
 
@@ -20,11 +22,16 @@ export class ExperienciaComponent implements OnInit {
     titulo:[''],
     descripcion:[''],
     imagen:[''],
-    id:['']
+    
     })
   this.getAllExperiencia();
+  this.otroFormValue = this.formbuilder.group({
+    titulo:[''],
+  descripcion:[''],
+  imagen:[''],
+  
+  })
   };
-
   getAllExperiencia(){
     this.api.getExperiencia().subscribe(res=>{
       this.experienciaData = res;
@@ -37,6 +44,22 @@ export class ExperienciaComponent implements OnInit {
        this.getAllExperiencia();
      })
 
+   }
+   postExperiencias(){
+     
+    this.experienciaLista.titulo = this.otroFormValue.value.titulo;
+    this.experienciaLista.descripcion = this.otroFormValue.value.descripcion;
+    this.experienciaLista.imagen = this.otroFormValue.value.imagen;
+    this.api.postExperiencia(this.experienciaLista).subscribe(res=>{
+      console.log(res);
+      alert("Experiencia añadida")
+      this.otroFormValue.reset();
+      this.getAllExperiencia();
+    },
+    err=>{
+      alert("Algo salio mal")
+    }
+    )
    }
   editExperiencia(experiencia: any){
    this.experienciaList.id = experiencia.id;

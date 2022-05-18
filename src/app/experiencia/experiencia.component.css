@@ -42,3 +42,10 @@
    .fondom{
        background: #e2c2a3;
    }
+   .add{
+       margin-left: 15px;
+   }
+   .add:hover{
+    background-color: darkgrey !important;
+
+   }

@@ -45,3 +45,10 @@ margin: 1%;
 .boton:hover{
     background-color: #e2c2a3 !important;
 }
+.add{
+    margin-left: 15px;
+}
+.add:hover{
+ background-color: darkgrey !important;
+
+}

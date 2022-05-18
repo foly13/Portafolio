@@ -11,8 +11,12 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class EducacionComponent implements OnInit {
   formValue !: FormGroup;
+  otroFormValue ! : FormGroup;
 educacionList:educacion= new educacion();
+educacionLista: educacion = new educacion();
 educacionData !:any;
+
+
   constructor(private formbuilder: FormBuilder,private api: ApiService, private router: Router) { }
 
   ngOnInit(): void {
@@ -20,10 +24,18 @@ educacionData !:any;
       titulo:[''],
       descripcion:[''],
       imagen:[''],
-      id:['']
+     
       })
       this.getAllEducacion();
+      
+      this.otroFormValue = this.formbuilder.group({
+        titulo:[''],
+      descripcion:[''],
+      imagen:[''],
+      
+      })
   };
+
   getAllEducacion(){
     this.api.getEducacion().subscribe(res=>{
       this.educacionData = res;
@@ -36,11 +48,28 @@ educacionData !:any;
       this.getAllEducacion();
     })
   }
+  postEducaciones(){
+     
+    this.educacionLista.titulo = this.otroFormValue.value.titulo;
+    this.educacionLista.descripcion = this.otroFormValue.value.descripcion;
+    this.educacionLista.imagen = this.otroFormValue.value.imagen;
+    this.api.postEducacion(this.educacionLista).subscribe(res=>{
+      console.log(res);
+      alert("Educacion añadida")
+      this.otroFormValue.reset();
+      this.getAllEducacion();
+    },
+    err=>{
+      alert("Algo salio mal")
+    }
+    )
+   }
   editEducacion(educacion: any){
     this.educacionList.id = educacion.id;
     this.formValue.controls['titulo'].setValue(educacion.titulo);
     this.formValue.controls['descripcion'].setValue(educacion.descripcion);
     this.formValue.controls['imagen'].setValue(educacion.imagen);
+    
    }
    updateEducacion(){
    

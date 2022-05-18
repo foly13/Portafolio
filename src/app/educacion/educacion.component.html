@@ -1,7 +1,7 @@
 <div class="conteiner">
     <div class="row bg">
         <div class="col-12 ">
-<h2 class="centrado">Educación</h2>
+<h2 class="centrado">Educación <button data-bs-toggle="modal" data-bs-target="#exampleModal3" *ngIf="hasRouteAdmin('/usuario')" type="button" class="btn btn-dark add">+</button></h2>
         </div>
     </div>
     <div class="row">
@@ -29,7 +29,7 @@
         </div>
     </div>
 
-<!-- Modal -->
+<!-- Modal editar-->
 <div class="modal fade " id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -57,6 +57,40 @@
       </div>
       <div class="modal-footer">
         <button (click)="updateEducacion()" type="button" class="btn btn-dark boton" data-bs-dismiss="modal">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal agregar -->
+<div class="modal fade " id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header fondom">
+        <h5 class="modal-title" id="exampleModalLabel">Añadir Educacion</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="otroFormValue" >
+          <div class="form-control">
+            <label for="exampleInputEmail1">Titulo</label>
+            <input type="text" formControlName="titulo" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese el nombre y lugar del estudio cursado">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Descripcion</label>
+            <input type="text" formControlName="descripcion" class="form-control" id="exampleInputPassword1" placeholder="Describa las habilidades adquiridas">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Logo</label>
+            <input type="text" formControlName="imagen" class="form-control" id="exampleInputPassword1" placeholder="Inserte URL de la imagen">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button"  (click)="postEducaciones()"  class="btn btn-dark boton" data-bs-dismiss="modal">Añadir</button>
       </div>
     </div>
   </div>

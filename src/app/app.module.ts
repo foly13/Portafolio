@@ -15,6 +15,7 @@ import { PortafolioComponent } from './portafolio/portafolio.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { FooterComponent } from './footer/footer.component';
+import {DragDropModule} from '@angular/cdk/drag-drop'
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { FooterComponent } from './footer/footer.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    DragDropModule,
   ],
   providers: [PortafolioService],
   bootstrap: [AppComponent]
