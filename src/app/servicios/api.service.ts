@@ -32,32 +32,19 @@ export class ApiService {
       return res;
     }))
   }
-  /*getEducacion(){
-    return this.http.get<any>("http://localhost:8080/ver/educacion/").pipe(map((res:any)=>{
-      return res;
-    }))
-  }*/
+
   updateEducacion(data:educacion, id:number){
     return this.http.put<educacion[]>("https://portafolio-florencia-casanova.herokuapp.com/ver/educacion/" + id, data).pipe(map((res: any)=>{
     return res;
   }))
   }
-  /*updateEducacion(data:educacion, id:number){
-    return this.http.put<educacion[]>("http://localhost:8080/ver/educacion/" + id, data).pipe(map((res: any)=>{
-    return res;
-  }))
-  }*/
+  
  deleteEducacion(id:number){
     return this.http.delete<any>("https://portafolio-florencia-casanova.herokuapp.com/ver/educacion/" + id).pipe(map((res: any)=>{
     return res;
   }))
   }
-  /*deleteEducacion(id:number){
-    return this.http.delete<any>("http://localhost:8080/ver/educacion/" + id).pipe(map((res: any)=>{
-    return res;
-  }))
-  }*/
-
+  
 
   //metodos componente experiencia
   getExperiencia(){
@@ -71,33 +58,19 @@ export class ApiService {
       return res;
     }))
   }
-  /*getExperiencia(){
-    return this.http.get<any>("http://localhost:8080/ver/experiencia/").pipe(map((res:any)=>{
-      return res;
-    }))
-  }*/
-
+ 
 updateExperiencia(data:experienciaI, id: number){
   return this.http.put<experienciaI[]>("https://portafolio-florencia-casanova.herokuapp.com/ver/experiencia/" + id, data).pipe(map((res: any)=>{
     return res;
   }))
 }
-/*updateExperiencia(data:experienciaI, id: number){
-  return this.http.put<experienciaI[]>("http://localhost:8080/ver/experiencia/" + id, data).pipe(map((res: any)=>{
-    return res;
-  }))
-}*/
 
 deleteExperiencia(id: number){
   return this.http.delete<any>("https://portafolio-florencia-casanova.herokuapp.com/ver/experiencia/" + id).pipe(map((res: any)=>{
     return res;
   }))
 }
-/*deleteExperiencia(id: number){
-  return this.http.delete<any>("http://localhost:8080/ver/experiencia/" + id).pipe(map((res: any)=>{
-    return res;
-  }))
-}*/
+
 
 //metodos componente acerca de 
   getDatos(){
@@ -105,22 +78,13 @@ deleteExperiencia(id: number){
       return res;
     }))
   }
-  /*getDatos(){
-    return this.http.get<any>('http://localhost:8080/ver/datos').pipe(map((res:any)=>{
-      return res;
-    }))
-  }*/
 
  updateDatos(data:acercaDe, id: number){
     return this.http.put<acercaDe[]>('https://portafolio-florencia-casanova.herokuapp.com/ver/datos/' + id, data).pipe(map((res: any)=>{
       return res;
     }))
   }
-  /*updateDatos(data:acercaDe, id: number){
-    return this.http.put<acercaDe[]>('http://localhost:8080/ver/datos/' + id, data).pipe(map((res: any)=>{
-      return res;
-    }))
-  }*/
+ 
 
 //metodos componente header
   getHeader(){
@@ -128,22 +92,12 @@ deleteExperiencia(id: number){
       return res;
     }))
   }
-  /*getHeader(){
-    return this.http.get<any>("http://localhost:8080/ver/header/").pipe(map((res:any)=>{
-      return res;
-    }))
-  }*/
 
  updateHeader(data:headerI, id: number){
     return this.http.put<headerI[]>("https://portafolio-florencia-casanova.herokuapp.com/ver/header/" + id, data).pipe(map((res: any)=>{
       return res;
     }))
   }
- /* updateHeader(data:headerI, id: number){
-    return this.http.put<headerI[]>("http://localhost:8080/ver/header/" + id, data).pipe(map((res: any)=>{
-      return res;
-    }))
-  }*/
 
   //metodos componete habilidades duras y blandas
   getDuras():Observable<durasI[]>{
